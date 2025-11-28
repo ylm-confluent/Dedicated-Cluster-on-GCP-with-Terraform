@@ -21,7 +21,7 @@ export TF_VAR_create_bastion_vm=true
 # Generate an SSH key if you don't have one: ssh-keygen -t rsa -b 4096 -f ~/.ssh/confluent_bastion -C "confluent-bastion"
 # SSH key for bastion VM
 # Run ./setup-ssh.sh to generate and configure SSH keys
-export TF_VAR_ssh_public_key="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCfyZAjXQh15egBGG3nQthcd8NyHnLPisrxC1EAkxpqoaJFeW6IsFB30vw2DSUu92h690uaLss1ac2ITwHzwwAFHeCUAEFuZqiHNqOzRwI4AYQ3L66bGMnvMXautPI7zYkXlnsz/mVQrJ0ZC9j9sv7aXudLZXZ13+4+0Z1yaiy/VWkcT8T7c2SLCsIgYnkL1iOtWlzDPSgcVgRXOfxn3uTXNAy2G7LXvfTRhVhkkxAE2C5qfKXFEYW/ArUe9045Yv/Crcf2OuAFZlfsX1Em7SD+UWbfqdfK0H3NGvIlSSK6TKZa5dBDtiarUuEo2FyBgf1OKdP9cJg4DZCuOqmmoF4f2VD7njzBtws/mL8VHrZSP+31oeAv+DKjkjSK3GvjV5/GNQqhGxFlm4yslIxulEwjaqdR8+h5JYjLsG0S+Znh4DYnvetBlkPXR+BDvX9vdGwEVeFWE1jsjE3/I3cnjCyuM1NN4MW+uD+rjUM4z5ZtI77UY55YyY6UxgS163wk7E6DaJz/Ka9vxMRcZdn81akQn/b4E8gG6H97C/JfqZLw+M4EVqumeVq9JplEi7CFnl7GOX9hlbs0TcPgq9qoP9tek01Ok0neo4ANGO2SVK/1TWVL4LDqcJg15hq2qQrb2M8JjG7GgdKGm9/UET74WEfTUdT8XgDLkVTvKIDZnybhxw== confluent-bastion-dedicated"
+export TF_VAR_ssh_public_key="*******"
 export TF_VAR_ssh_username="terraform"
 
 # Set to true to create a Windows VM in the VPC for browser-based Confluent Cloud access
@@ -41,7 +41,7 @@ export TF_VAR_windows_admin_username="confluent_admin"
 # - Cannot contain the username
 # Example: Confluent@Cloud2024!SecurePass
 # CHANGE THIS BEFORE DEPLOYING:
-export TF_VAR_windows_admin_password='DK$^.]}yW^}HA;-'
+export TF_VAR_windows_admin_password='*******'
 
 # GCP configuration change this to your project and preferred region
 export TF_VAR_customer_project_id="solutionsarchitect-01"
